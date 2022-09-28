@@ -9,7 +9,7 @@ import {DataService} from "./data.service";
 export class AppComponent {
   title = 'water-calc';
 
-  isProfileCreated: boolean = false;
+  isProfileCreated: boolean = true;
 
   constructor(private dataService: DataService) {
     this.dataService.$profile.subscribe(
