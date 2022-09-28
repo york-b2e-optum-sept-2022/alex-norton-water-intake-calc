@@ -6,8 +6,10 @@ import { DAY } from '../enums/DAY'
   styleUrls: ['./week.component.css']
 })
 export class WeekComponent implements OnInit {
-
+ days = DAY
   constructor() { }
+
+
 
   ngOnInit(): void {
   }
